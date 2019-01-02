@@ -23,7 +23,7 @@ var retweet = function() {
         },
         function(err, response) {
           if (response) {
-            console.log("Retweeted!!!");
+            console.log("Bingo!!");
           }
           // if there was an error while tweeting
           if (err) {
